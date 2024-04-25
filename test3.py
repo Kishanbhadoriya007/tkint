@@ -7,7 +7,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import accuracy_score
 
 # Load the dataset
-df = pd.read_csv("https://raw.githubusercontent.com/futurexskill/projects/main/knn-classification/purchase_history.csv")
+df = pd.read_csv("D:/Transfer_for_saving_space/Downloads/purchase_history.csv")
 
 # Preprocess the data
 gender_encoded = pd.get_dummies(df['Gender'], drop_first=True)
